@@ -7,7 +7,15 @@ return {
     opts = function(_, opts)
       -- add more things to the ensure_installed table protecting against community packs modifying it
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
-        -- "lua_ls",
+        "bashls",
+        "dockerls",
+        "jsonls",
+        "lua_ls",
+        "hls",
+        "marksman",
+        "pylsp",
+        "sourcery",
+        "yamlls",
       })
     end,
   },
@@ -18,8 +26,17 @@ return {
     opts = function(_, opts)
       -- add more things to the ensure_installed table protecting against community packs modifying it
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
-        -- "prettier",
-        -- "stylua",
+        "autoflake", -- Removes unused imports and unused variables as reported by pyflakes
+        "beautysh", -- A Bash beautifier for the masses.
+        "black", -- The uncompromising Python code formatter.
+        "buildifier", -- A tool for formatting bazel BUILD, WORKSPACE, and .bzl files.
+        "isort", -- A Python utility / library to sort imports alphabetically and automatically separate them into sections and by type.
+        "jsonlint", -- A JSON parser and validator with a CLI.
+        "luacheck", -- A tool for linting and static analysis of Lua code.
+        "markdownlint", -- Markdown linting and style checking for Visual Studio Code.
+        "mdformat", -- An opinionated Markdown formatter that can be used to enforce a consistent style in Markdown files.
+        "mypy", -- An optional static type checker for Python.
+        "stylua", -- An opinionated Lua code formatter.
       })
     end,
   },
@@ -29,7 +46,10 @@ return {
     opts = function(_, opts)
       -- add more things to the ensure_installed table protecting against community packs modifying it
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
-        -- "python",
+        "python",
+        "js",
+        "bash",
+        "haskell",
       })
     end,
   },

@@ -35,5 +35,9 @@ git clone https://github.com/coderpotter/astronvim ~/.config/nvim/lua/user
 nvim
 ```
 
-# Configuration specific installation
+## Configuration specific installation
+
+### Copilot
+
+Make sure you have Node version > 16.0.
 `:Copilot auth`
