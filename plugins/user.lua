@@ -14,4 +14,10 @@ return {
     event = "BufRead",
     config = function() require("todo-comments").setup() end,
   },
+
+  {
+    "sudormrfbin/cheatsheet.nvim",
+    lazy = false,
+    config = function() require("telescope").setup() end,
+  },
 }
