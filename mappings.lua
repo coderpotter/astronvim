@@ -32,6 +32,10 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    -- set <Tab> to accept copilot's suggestion
+    ["<C>i"] = {
+      function() require("copilot").accept() end,
+    },
   },
   t = {
     -- setting a mapping to false will disable it
