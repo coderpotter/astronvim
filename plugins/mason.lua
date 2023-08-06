@@ -11,9 +11,9 @@ return {
         "dockerls",
         "jsonls",
         "lua_ls",
-        "hls",
         "marksman",
         "pylsp",
+        "rust_analyzer",
         "sourcery",
         "yamlls",
       })
@@ -48,7 +48,7 @@ return {
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
         "js",
         "bash",
-        "haskell",
+        "codelldb",
       })
     end,
   },

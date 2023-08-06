@@ -36,6 +36,14 @@ return {
     ["<C>i"] = {
       function() require("copilot").accept() end,
     },
+
+    -- rust-tools
+    ["<leader>Th"] = {
+      function() require("rust-tools").hover_actions.hover_actions() end,
+    },
+    ["<leader>Ta"] = {
+      function() require("rust-tools").code_action_group.code_action_group() end,
+    },
   },
   t = {
     -- setting a mapping to false will disable it
