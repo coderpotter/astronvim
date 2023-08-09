@@ -1,5 +1,5 @@
 -- Set <Tab> to accept suggestions if the popup is visible, otherwise tab
-vim.keymap.set("i", "<Tab>", function()
+vim.keymap.set("i", "<C-B>", function()
   if require("copilot.suggestion").is_visible() then
     require("copilot.suggestion").accept()
   else
