@@ -118,6 +118,15 @@ return {
     },
   },
 
+  -- Autocmd to run `sourcery review [filename].py` as a CLI command automatically any time a python file is saved.
+  autocmds = {
+    {
+      event = "BufWritePost",
+      pattern = "*.py",
+      command = "sourcery review %", -- % is replaced with the filename, so this will run `sourcery review [filename].py`
+    },
+  },
+
   -- This function is run last and is a good place to configuring
   -- augroups/autocommands and custom filetypes also this just pure lua so
   -- anything that doesn't fit in the normal config locations above can go here
