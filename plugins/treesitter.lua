@@ -12,6 +12,7 @@ return {
       "markdown",
       "proto",
       "python",
+      "rust",
       "yaml",
     })
   end,
