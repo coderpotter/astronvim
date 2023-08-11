@@ -7,7 +7,10 @@ return {
     require("neorg").setup {
       load = {
         ["core.defaults"] = {}, -- Loads default behaviour
-        ["core.concealer"] = {}, -- Adds pretty icons to your documents
+        ["core.concealer"] = {
+          -- set concealer level to 2, so that text in between {{{ }}} is hidden
+          config = { level = 2 },
+        }, -- Adds pretty icons to your documents
         ["core.dirman"] = { -- Manages Neorg workspaces
           config = {
             workspaces = {
@@ -15,6 +18,8 @@ return {
             },
           },
         },
+        ["core.export"] = {}, -- Exports Neorg documents into any other supported filetype.
+        ["core.summary"] = {}, -- Creates links to all files in any workspace.
       },
     }
   end,
