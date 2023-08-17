@@ -30,6 +30,7 @@ return {
     "neoclide/coc.nvim",
     branch = "release",
     run = "yarn install --frozen-lockfile",
-    lazy = false,
+    ft = "python",
+    event = "BufRead",
   },
 }
