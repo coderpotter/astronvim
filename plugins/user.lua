@@ -25,5 +25,11 @@ return {
     "lervag/vimtex",
     lazy = false,
   },
-  "dense-analysis/ale",
+
+  {
+    "neoclide/coc.nvim",
+    branch = "release",
+    run = "yarn install --frozen-lockfile",
+    lazy = false,
+  },
 }

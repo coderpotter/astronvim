@@ -26,7 +26,6 @@ return {
     opts = function(_, opts)
       -- add more things to the ensure_installed table protecting against community packs modifying it
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
-        "autoflake", -- Removes unused imports and unused variables as reported by pyflakes
         "beautysh", -- A Bash beautifier for the masses.
         "black", -- The uncompromising Python code formatter.
         "buildifier", -- A tool for formatting bazel BUILD, WORKSPACE, and .bzl files.
