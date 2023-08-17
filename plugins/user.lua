@@ -20,4 +20,9 @@ return {
     lazy = false,
     config = function() require("telescope").setup() end,
   },
+
+  {
+    "lervag/vimtex",
+    lazy = false,
+  },
 }
