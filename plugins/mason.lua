@@ -31,6 +31,7 @@ return {
         "buildifier", -- A tool for formatting bazel BUILD, WORKSPACE, and .bzl files.
         "isort", -- A Python utility / library to sort imports alphabetically and automatically separate them into sections and by type.
         "jsonlint", -- A JSON parser and validator with a CLI.
+        "latexindent", -- A Perl script which provides indentation, formatting, and highlighting for LaTeX documents.
         "luacheck", -- A tool for linting and static analysis of Lua code.
         "markdownlint", -- Markdown linting and style checking for Visual Studio Code.
         "mdformat", -- An opinionated Markdown formatter that can be used to enforce a consistent style in Markdown files.
