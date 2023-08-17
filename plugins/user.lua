@@ -25,4 +25,5 @@ return {
     "lervag/vimtex",
     lazy = false,
   },
+  "dense-analysis/ale",
 }

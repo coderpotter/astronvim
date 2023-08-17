@@ -13,6 +13,7 @@ return {
         "lua_ls",
         "marksman",
         "pylsp",
+        "rust_analyzer",
         "sourcery",
         "yamlls",
       })
