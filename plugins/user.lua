@@ -35,13 +35,6 @@ return {
   },
 
   {
-    "phaazon/hop.nvim",
-    branch = "v2",
-    event = "BufRead",
-    config = function() require("hop").setup {} end,
-  },
-
-  {
     "ggandor/leap.nvim",
     event = "BufRead",
     config = function() require("leap").add_default_mappings() end,
