@@ -35,7 +35,6 @@ return {
         "luacheck", -- A tool for linting and static analysis of Lua code.
         "markdownlint", -- Markdown linting and style checking for Visual Studio Code.
         "mdformat", -- An opinionated Markdown formatter that can be used to enforce a consistent style in Markdown files.
-        "mypy", -- An optional static type checker for Python.
         "stylua", -- An opinionated Lua code formatter.
       })
     end,
