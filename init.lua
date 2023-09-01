@@ -9,7 +9,19 @@ end, {
   silent = true,
 })
 
-vim.g.vimtex_view_method = "zathura"
+vim.api.nvim_set_keymap("i", "<F2>", '<cmd>lua require("renamer").rename()<cr>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap(
+  "n",
+  "<leader>mn",
+  '<cmd>lua require("renamer").rename()<cr>',
+  { noremap = true, silent = true }
+)
+vim.api.nvim_set_keymap(
+  "v",
+  "<leader>mn",
+  '<cmd>lua require("renamer").rename()<cr>',
+  { noremap = true, silent = true }
+)
 
 return {
   -- Configure AstroNvim updates
@@ -31,7 +43,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrodark",
+  colorscheme = "catppuccin-mocha",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {

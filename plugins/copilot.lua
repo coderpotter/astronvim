@@ -1,7 +1,7 @@
 return {
   "zbirenbaum/copilot.lua",
   cmd = "Copilot",
-  event = "InsertEnter",
+  event = "BufRead",
   config = function()
     require("copilot").setup {
       suggestion = {
@@ -10,4 +10,3 @@ return {
     }
   end,
 }
-
