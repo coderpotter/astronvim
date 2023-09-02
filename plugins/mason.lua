@@ -12,7 +12,7 @@ return {
         "jsonls",
         "lua_ls",
         "marksman",
-        "pylsp",
+        "pyright",
         "rust_analyzer",
         "sourcery",
         "yamlls",

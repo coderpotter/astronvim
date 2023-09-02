@@ -1,17 +1,3 @@
-vim.api.nvim_set_keymap("i", "<F2>", '<cmd>lua require("renamer").rename()<cr>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap(
-  "n",
-  "<leader>mn",
-  '<cmd>lua require("renamer").rename()<cr>',
-  { noremap = true, silent = true }
-)
-vim.api.nvim_set_keymap(
-  "v",
-  "<leader>mn",
-  '<cmd>lua require("renamer").rename()<cr>',
-  { noremap = true, silent = true }
-)
-
 return {
   -- Configure AstroNvim updates
   updater = {
