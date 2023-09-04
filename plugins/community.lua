@@ -30,6 +30,4 @@ return {
 
   { import = "astrocommunity.syntax.hlargs-nvim" },
   { import = "astrocommunity.syntax.vim-cool" },
-
-  { import = "astrocommunity.workflow.hardtime-nvim" },
 }
