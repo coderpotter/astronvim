@@ -24,4 +24,8 @@ return {
     event = "BufRead",
     config = function() require("symbols-outline").setup() end,
   },
+  {
+    "mechatroner/rainbow_csv",
+    event = "BufRead",
+  },
 }
