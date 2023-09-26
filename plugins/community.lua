@@ -15,7 +15,6 @@ return {
   { import = "astrocommunity.lsp.inc-rename-nvim" },
   { import = "astrocommunity.lsp.lsp-signature-nvim" },
 
-  { import = "astrocommunity.markdown-and-latex/glow-nvim" },
   { import = "astrocommunity.markdown-and-latex/vimtex" }, -- https://github.com/AstroNvim/astrocommunity/blob/main/lua/astrocommunity/markdown-and-latex/vimtex/init.lua
 
   { import = "astrocommunity.motion.leap-nvim" },
