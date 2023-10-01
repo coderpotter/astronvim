@@ -20,6 +20,7 @@ return {
   { import = "astrocommunity.motion.leap-nvim" },
 
   { import = "astrocommunity.pack.bash" },
+  { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.markdown" },
