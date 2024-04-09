@@ -14,7 +14,6 @@ return {
         "sourcery",
         "pyre",
         "pylsp",
-        "grammarly",
         -- add more arguments for adding more language servers
       })
     end,
