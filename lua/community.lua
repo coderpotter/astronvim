@@ -24,7 +24,6 @@ return {
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
   { import = "astrocommunity.git.git-blame-nvim" },
   { import = "astrocommunity.git.diffview-nvim" },
-  { import = "astrocommunity.git.neogit" },
   { import = "astrocommunity.pack.lua" },
   -- import/override with your plugins folder
 }
